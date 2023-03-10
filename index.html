@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument</title>
+    <!-- Import local Boxicon -->
+    <link rel="stylesheet" href="icons/my-boxicons/css/boxicons.min.css">
+
+    <!-- Import bootstrap from cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Import local bootstrap -->
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Import bootstrap from cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    <style>
+        .kh-border-grey {
+            border: 1px solid #3a3a3a;
+        }
+
+        *,
+        *::after,
+        *::before {
+            color: #fff;
+        }
+
+        .kh-white {
+            color: #fff;
+        }
+
+        .kh-upper {
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        .kh-logo {
+            font-weight: 700;
+        }
+
+        .kh-hero-img {
+            object-fit: contain;
+            width: inherit;
+            max-width: 100vw;
+            max-height: 50vh;
+        }
+
+        .kh-hero {
+            height: 30vh;
+        }
+
+        .kh-bold {
+            font-weight: 700;
+        }
+
+        .kh-image {
+            max-width: 600px;
+            max-height: 500px;
+        }
+
+        .kh-image-2 {
+            max-width: 500px;
+            max-height: 350px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .kh-image {
+                max-width: 100vw;
+                max-height: 60vh;
+            }
+        }
+
+        .kh-btn {
+            border-radius: 1.5rem;
+        }
+
+        .kh-btn:hover {
+            background-color: #000;
+            color: #fff;
+            transition: .3s ease;
+        }
+
+        .icon {
+            color: #000;
+        }
+
+        .kh-link:hover::before {
+            content: "[ ";
+            transition: .3s ease;
+        }
+
+        .kh-link:hover::after {
+            content: " ]";
+            transition: .3s ease;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a href="http://" class="navbar-brand kh-upper kh-logo">instrument</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarLinks">
+                    <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                        <li class="nav-item"><a href="http://" class="nav-link kh-white kh-upper">What we do</a></li>
+                        <li class="nav-item"><a href="http://" class="nav-link kh-white kh-upper">who we are</a></li>
+                        <li class="nav-item"><a href="http://" class="nav-link kh-white kh-upper">being here</a></li>
+                        <li class="nav-item"><a href="http://" class="nav-link kh-white kh-upper">careers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-sm mt-5">
+            <h1 class="display-1 kh-bold">Build. Grow. Serve</h1>
+            <p class="lead fw-normal">We are investing $3 million over the next three years in our<br>Build|Grow|Serve program, created to support and empower Black and<br>underrepresented communities.</p>
+            <button type="submit" class="btn font-monospace text-black bg-white px-3 kh-btn font-monospace">Learn More <i class="icon bx bx-right-arrow-alt text-black align-middle"></i></button>
+        </div>
+
+        <div class="container-sm mt-5">
+            <div class="container-sm bg-white d-sm-flex justify-content-sm-center align-items-sm-center kh-hero">
+                <p class="display-1 text-black">One big video</p>
+            </div>
+        </div>
+
+        <div class="container-sm">
+            <h3 class="lead fs-2 mt-5 p-5 text-center">We enrich human lives throug<br>the thoughtful application of<br>design and technology</h3>
+        </div>
+
+        <div class="container-lg d-lg-flex justify-content-between align-items-center ps-xl-5">
+            <div class="">
+                <p class="lead fs-4 fw-normal">In our third episode of On Air, we explore all that's happened within the last six months, the reality of showing up every day as a BIPOC employee in Corporate America, and our future vision for diversity, equity, and inclusion.</p>
+                <button class="btn bg-white px-3 kh-btn font-monospace">Read more <i class='icon bx bx-right-arrow-alt text-black'></i></button>
+            </div>
+            <div class="">
+                <img src="images/ins3.jpeg" alt="" class="kh-image">
+            </div>
+        </div>
+
+        <div class="container-lg d-lg-flex justify-content-lg-between align-items-lg-center px-xl-5 flex-lg-fill">
+            <div class="pe-lg-5" style="width:100%">
+                <img src="images/ins1.jpg" alt="" class="kh-image kh-image-2">
+            </div>
+            <div class="pt-5">
+                <p class="lead fs-4 fw-normal">As a full-service partner to the world's most ambitious companies, we create transformational change through best-in-class digital products and communications.</p>
+                <button class="btn lead px-3 bg-white kh-btn font-monospace">What we do <i class='icon bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+
+        <div class="container-sm d-sm-flex justify-content-center align-items-center flex-column mt-5">
+            <h3 class="lead fs-2 text-center mb-4">Explore a few of our most<br>impactful projects</h3>
+            <div class="container-sm text-center px-3">
+                <button class="btn bg-white kh-btn">Our work <i class='icon bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+
+        <div class="container-lg d-lg-flex justify-content-lg-between mt-5">
+            <div class="card bg-black p-5" style="width:100%">
+                <img src="images/ins5.jpeg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Levi's</h4>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ipsam, minima nam ab sint odio accusantium sit quae, quidem ex quo ullam quisquam ut. Hic quibusdam amet quia nulla incidunt?</p>
+                </div>
+            </div>
+            <div class="card bg-black p-5" style="width:100%">
+                <img src="images/ins4.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Dropbox Brand Campaign</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat totam eos accusamus sunt illo, corporis neque molestias laudantium quaerat necessitatibus deleniti accusantium ipsa assumenda non reprehenderit, laboriosam itaque quod! Voluptatum?</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="container-sm">
+            <h3 class="lead fs-2 fw-normal text-center">We'd love to be your partner</h3>
+            <div class="container text-center mt-3">
+                <button class="btn kh-btn bg-white px-3 font-monospace">Get in touch <i class='icon bx bx-right-arrow-alt'></i></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-sm my-5">
+        <div class="row">
+            <ul class="nav flex-column col-sm-3">
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">home</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">what we do</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">work</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">who we are</a></li>
+            </ul>
+    
+            <ul class="nav flex-column col-sm-3">
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">being here</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">careers</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">contact</a></li>
+                <li class="nav-item"><a href="http://" class="nav-link text-uppercase kh-link text-white font-monospace">privacy</a></li>
+            </ul>
+    
+            <div class="container social col-sm-6 d-md-flex justify-content-md-end align-items-md-end">
+                <button class="btn mx-3 btn-md mt-3 kh-btn text-uppercase kh-border-grey px-3 bg-black text-white font-monospace">newsletter <i class='bx bx-right-arrow-alt'></i></button>
+                <div>
+                    <i class='bx bxl-instagram bx-sm mx-3 mt-3'></i>
+                    <i class='bx bxl-twitter bx-sm mx-3 mt-3' ></i>
+                    <i class='bx bxl-linkedin-square bx-sm mx-3 mt-3'></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
